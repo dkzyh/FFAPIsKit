@@ -5,6 +5,8 @@ platform :ios, '8.0'
 target 'FFAPIsKit_Example' do
   pod 'FFAPIsKit', :path => '../'
 
+  pod 'FFToolsKit', :git => 'https://github.com/dkzyh/FFToolsKit.git'
+  
   target 'FFAPIsKit_Tests' do
     inherit! :search_paths
 

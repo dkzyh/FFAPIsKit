@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FFAPIsKit (1.0.0):
+    - AFNetworking
+    - FFToolsKit
+  - FFToolsKit (1.0.0):
+    - FMDB
+    - MBProgressHUD
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - FFAPIsKit (from `../`)
+  - FFToolsKit (from `https://github.com/dkzyh/FFToolsKit.git`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FFAPIsKit:
+    :path: "../"
+  FFToolsKit:
+    :git: https://github.com/dkzyh/FFToolsKit.git
+
+CHECKOUT OPTIONS:
+  FFToolsKit:
+    :commit: 56aed376b294ef633ff4576681eff6a91b3f5c3b
+    :git: https://github.com/dkzyh/FFToolsKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FFAPIsKit: 18a35d638efdf6fd1832f124771f774465358474
+  FFToolsKit: 28f33e7d716ad653dfca16c491fee13d7048df28
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: e3c98f31631ad483ca14bb82cfece1eb9695886e
+
+COCOAPODS: 1.9.3
